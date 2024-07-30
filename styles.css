@@ -1,0 +1,140 @@
+﻿/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #4CAF50;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    header img {
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-top: -75px;
+        width: 150px;
+        height: 150px;
+    }
+
+/* Section styles */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #555;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+.intro img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Skills section */
+.skills .skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+    .skills .skill h4 {
+        margin: 0;
+        width: 15%;
+    }
+
+    .skills .skill .progress-bar-container {
+        width: 75%;
+        display: flex;
+        align-items: center;
+    }
+
+    .skills .skill .progress-bar {
+        width: 100%;
+        height: 10px;
+        background: #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+        .skills .skill .progress-bar div {
+            height: 100%;
+            background: #4CAF50;
+        }
+
+    .skills .skill .percentage {
+        width: 10%;
+        text-align: right;
+    }
+
+/* Social media links */
+.social-media-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+    .social-media-links a {
+        margin: 0 10px;
+        display: inline-block;
+        transition: transform 0.3s;
+    }
+
+        .social-media-links a img {
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        .social-media-links a:hover {
+            transform: scale(1.1);
+        }
