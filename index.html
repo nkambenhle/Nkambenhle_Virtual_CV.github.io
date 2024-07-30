@@ -1,83 +1,118 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Nkambenhle Virtual CV</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Nkambenhle Zungu</h1>
-    <div>
-        <img src="images/me.jpg" alt="Zungu" style="width:100%;max-width:200px;">
-    </div>
-    <!-- This Introduction about my self.-->
-    <p>
-        I am a 21-year-old university student
-        studying BSc IT. I have had an
-        opportunity to work on various projects
-        while at school. I’m known for my
-        problem-solving skills and ability to
-        collaborate with cross-functional teams.
-        Outside of school, I’m passionate about
-        health issues.
-    </p>
+    <div class="container">
+        <header>
+            <img src="images/me.jpg" alt="Zungu">
+            <h1>Nkambenhle Zungu</h1>
+        </header>
 
-    <!--Education that I have-->
-    <h3>Education</h3>
-    <p>
-        <h4>
-            Eshowe High School<br />
-            2017-2021<br />
-        </h4>
-        • Half colours in academics<br />
-        • Award for CAT (Computer Application technology).<br />
-        <br />
-        <br />
-        <h4>
-            North West University<br />
-            2022-present<br />
-        </h4>
-        • NWU Debate Society 2022-2023<br />
-        • NWU SALT 2023-2024<br />
-        • Executive committee of the Student Forum in NWU 2023-2024<br />
-        <br />
-    </p>
-    <h3>Skills</h3>
-    <p>
-        <h4>
-            C#<br />
-            80%<br />
-        </h4>
-        <h4>
-            Java<br />
-            40%<br />
-        </h4>
-        <h4>
-            JavaScript<br />
-            70%<br />
-        </h4>
-        <h4>
-            Python<br />
-            25%<br />
-        </h4>
-        <br />
-    </p>
+        <section class="intro">
+            <p>
+                I am a 21-year-old university student studying BSc IT. I am an aspiring System Engineers. I have had an opportunity to work on various projects while at school. I’m known for my problem-solving skills and ability to collaborate with cross-functional teams. Outside of school, I’m passionate about social and health issues.
+            </p>
+        </section>
 
+        <section class="education">
+            <h2>Education</h2>
+            <div>
+                <h3>Eshowe High School</h3>
+                <p>2017-2021</p>
+                <p>• Half colours in academics(75+)<br>• Award for CAT (Computer Application technology).</p>
+            </div>
+            <div>
+                <h3>North West University</h3>
+                <p>2022-present</p>
+                <p>• NWU Debate Society 2022-2023<br>• NWU SALT 2023-2024<br>• Executive committee of the Student Forum in NWU 2023-2024</p>
+            </div>
+        </section>
 
-    <!--Reference-->
-    <!--Links to my social media platforms-->
-    <div class="social-media-links">
-        <h3>Social media platforms</h3>
-        <a href="https://www.linkedin.com/in/nkambenhle-zungu-8301851a3/" target="_blank">
-            <img src="images/l.jpeg" alt="Linkedin" style="width:50px;">
-        </a>
-        <a href="https://x.com/Nkambenhle17" target="_blank">
-            <img src="images/x.jpeg" alt="X" style="width:50px;">
-        </a>
-        <a href="https://www.instagram.com/nkambenhlez/" target="_blank">
-            <img src="images/In.jpeg" alt="Instagram" style="width:50px;">
-        </a>
-        <a href="https://www.facebook.com/nkambenhle.nkambenhle/" target="_blank">
-            <img src="images/f.jpeg" alt="Facebook" style="width:50px;"><br />
-        </a>
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h4>C#</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"><div style="width: 80%;"></div></div>
+                    <div class="percentage">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Java</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"><div style="width: 40%;"></div></div>
+                    <div class="percentage">40%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>JavaScript</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"><div style="width: 70%;"></div></div>
+                    <div class="percentage">70%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Python</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"><div style="width: 25%;"></div></div>
+                    <div class="percentage">25%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>HTML</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"><div style="width: 75%;"></div></div>
+                    <div class="percentage">75%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>CSS</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"><div style="width: 45%;"></div></div>
+                    <div class="percentage">45%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>C++</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"><div style="width: 20%;"></div></div>
+                    <div class="percentage">20%</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Automated-booking-System</h3>
+                <p>Completed: 2023<br>• Language used: C# and MySQL</p>
+            </div>
+        </section>
+
+        <section class="social-media-links">
+            <h2>Social Media Platforms</h2>
+            <a href="https://www.linkedin.com/in/nkambenhle-zungu-8301851a3/" target="_blank">
+                <img src="images/l.jpeg" alt="Linkedin">
+            </a>
+            <a href="https://x.com/Nkambenhle17" target="_blank">
+                <img src="images/x.jpeg" alt="X">
+            </a>
+            <a href="https://www.instagram.com/nkambenhlez/" target="_blank">
+                <img src="images/In.jpeg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/nkambenhle.nkambenhle/" target="_blank">
+                <img src="images/f.jpeg" alt="Facebook">
+            </a>
+            <a href="https://github.com/nkambenhle" target="_blank">
+                <img src="images/g.jpeg" alt="github">
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRrlZZGxPnmSQDSWmhQqZgcCXGRNXRfnsvhVldSDBcBQSFmsHBNTXxrKhNQjHqqTcJptmtv" target="_blank">
+                <img src="images/m.jpeg" alt="Gmail">
+            </a>
+        </section>
     </div>
 </body>
 </html>
